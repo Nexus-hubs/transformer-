@@ -326,17 +326,6 @@
     <main class="container">
         <img src="transformers_header.png" alt="main header" class="banner-image">
 
-        <header class="blog-header">
-            <h1>transformers</h1>
-            <p class="subtitle">a source for ai, models, and code insights</p>
-            <div class="metadata">
-                <span class="author">by claude ai</span>
-                <span class="separator">•</span>
-                <span class="date">november 21, 2025</span>
-            </div>
-            <hr class="divider">
-        </header>
-
         <nav class="nav-sections">
             <a href="#model-updates" class="nav-section">
                 <div class="nav-section-title">model updates</div>
@@ -366,61 +355,36 @@
             </section>
 
             <section id="model-updates" class="content-section">
-                <h2>model updates</h2>
-                <p>the past few weeks have delivered major frontier-level drops from leading labs. new models now offer stronger reasoning stability, unified multi-modal understanding across text, images, and audio, and significantly extended context windows that allow full document analysis and multi-step workflows in a single pass. several teams have also introduced lightweight on-device models capable of fast inference on laptops and edge hardware.</p>
-
-                <p>improvements in training efficiency, sparse attention mechanisms, and memory-optimized layers are rapidly reducing compute requirements while preserving high performance. these developments make state-of-the-art capabilities accessible to smaller teams and independent developers.</p>
+                <h2>model updates — latest releases</h2>
+                <p>this week marked a major leap in ai model capabilities. google launched Gemini 3, which is now embedded into search from day one and claims to represent its most intelligent model yet. meanwhile OpenAI introduced GPT-5.1-Codex-Max, a model trained for long-horizon software engineering tasks, capable of reasoning across millions of tokens using a new "compaction" technique. these releases highlight a dual surge in both general-purpose reasoning and deep agentic coding capabilities.</p>
 
                 <img src="neon.png" alt="latest insights visual" class="banner-image">
-
-                <h3>latest releases</h3>
-                <p>recent releases introduce advanced tool-use accuracy, richer planning capabilities, and stable multi-step reasoning through new function-calling interfaces. models are increasingly able to inspect files, execute workflows, and coordinate external tools in structured ways. vision-language models continue to improve with sharper image interpretation, reliable document extraction, and early-stage video reasoning features.</p>
-
-                <p>several labs have also pushed updates focused on cost reduction, making high-quality inference more affordable. optimized architectures, quantized checkpoints, and low-rank adaptation layers are becoming standard for efficient deployment.</p>
             </section>
 
             <section id="ai-news" class="content-section">
                 <img src="neuralnetworks.png" alt="ai systems visual" class="banner-image">
 
-                <h2>ai news</h2>
-                <p>cloud providers are rapidly expanding infrastructure to support ai-intensive workloads, including low-latency inference fabrics, high-bandwidth gpu clusters, and new accelerators designed specifically for large model execution. enterprise adoption is climbing as companies integrate ai into support systems, logistics operations, software development pipelines, and research workflows.</p>
-
-                <p>safety and interpretability remain central topics, with new techniques improving model transparency and reducing hallucination rates. updated evaluation frameworks are being introduced to measure reliability, reasoning quality, and alignment with user intent.</p>
-
-                <h3>industry trends</h3>
-                <p>the industry is shifting toward agentic systems where ai models do not merely respond, but act. ides, browsers, and workflow environments now include native ai execution layers that allow models to operate tools, inspect directories, run commands, and modify files. this represents a transition from traditional chat interfaces to fully integrated development companions.</p>
-
-                <p>smaller, specialized models are gaining traction due to cost efficiency and predictable behavior, while large frontier models remain the choice for deep reasoning tasks. retrieval-augmented generation continues to grow as the most reliable method for grounding model outputs in factual data.</p>
+                <h2>ai news — industry trends</h2>
+                <p>what's notable this week is how ai infrastructure and tooling are shifting toward autonomous task orchestration. google released Antigravity, an agent-first development platform allowing ai agents to plan, execute, and verify complex workflows in the editor, terminal, and browser. on the enterprise side, databricks now offers Gemini 3 Pro natively in its platform, enabling big-data teams to build vectors, agents, and models with new multimodal reasoning at scale. collectively these moves reinforce the trend of ai moving from "assistants" toward "agents" embedded into development environments and business workflows.</p>
             </section>
 
             <section id="code" class="content-section">
-                <h2>code</h2>
-                <p>developers are adopting modular code patterns for integrating ai into systems. common patterns include efficient inference loops, hybrid retrieval pipelines, async task orchestration, and multi-agent controllers built around planner and executor roles. tool APIs now allow models to interact with structured actions, external endpoints, and local environments with minimal overhead.</p>
-
-                <p>recent code examples also demonstrate how to use vector stores effectively, manage long-context sessions, and design memory-aware agents that retain relevant information across steps.</p>
-
-                <h3>tutorials & snippets</h3>
-                <p>new tutorials highlight practical workflows: building retrieval pipelines with local embeddings, implementing multi-agent planners, constructing long-context analysis tools, and performing efficient fine-tuning with qlora or adapter layers. each snippet is designed to be minimal, clean, and ready to drop directly into active projects.</p>
-
-                <p>additional examples focus on real-time streaming outputs, low-latency inference servers, and containerized ai microservices that scale across environments.</p>
+                <h2>code — tutorials & snippets</h2>
+                <p>for code-centric developers the newest models bring fresh patterns. with GPT-5.1-Codex-Max you can now build workflows where the model retains coherence across multi-hour sessions, refactors entire codebases, and executes debugging loops autonomously. additionally, Google Antigravity supports tool-calling agents integrated with Gemini 3, allowing developers to hand off multi-step features (e.g., plan → code → test → deploy) with minimal human intervention. these form the basis for updated tutorials on building "agent pipelines" rather than just "model prompts."</p>
 
                 <img src="fine tunning.png" alt="fine tuning visual" class="banner-image">
             </section>
 
             <section id="thoughts" class="content-section">
-                <h2>thoughts</h2>
-                <p>the ai community is debating the balance between massive frontier models and smaller, domain-specialized agents. many argue that the future belongs to ecosystems of connected agents, each optimized for a specific role and coordinated through shared context protocols. others emphasize the importance of fully interpretable models and transparent reasoning pipelines.</p>
-
-                <p>ongoing discussion also focuses on compute economics, long-term reliability, and the transition from "models that answer" to "systems that perform tasks end-to-end."</p>
+                <h2>thoughts — ideas & opinions</h2>
+                <p>we're witnessing a pivotal moment in ai evolution. the competition between large frontier models (like Gemini 3) and specialized agentic systems (like Codex-Max) is sharpening. at the same time, development tooling (Antigravity) is shifting the locus of value from model size to task orchestration and integration. the question now isn't just "which model is best?" but "which workflow allows agents to act reliably within human ecosystems?" in a sense we're transitioning from "models that answer" to "systems that perform."</p>
 
                 <img src="looking ahead.png" alt="future visual" class="banner-image">
             </section>
 
             <section id="tutorials" class="content-section">
-                <h2>tutorials</h2>
-                <p>these step-by-step guides explain how to build modern ai components from the ground up. topics include constructing attention modules, designing efficient inference servers, wiring vector search into APIs, and developing small but powerful agent frameworks capable of planning and execution.</p>
-
-                <p>new guides also walk through deploying models to edge devices, integrating them with cloud pipelines, and implementing monitoring systems for production ai workloads.</p>
+                <h2>tutorials — step-by-step guides</h2>
+                <p>new guides should reflect the updated capabilities: building an autonomous code-agent that uses GPT-5.1-Codex-Max to refactor a repo, validate changes, and deploy updates; or setting up a Gemini 3-powered retrieval system with a 1-million-token context window for multimodal document comprehension; or integrating Google Antigravity agents into your existing IDE with custom tools and verification workflows. each step should emphasise agent orchestration, long-horizon reasoning, tool-use, and developer empowerment.</p>
             </section>
         </article>
 
