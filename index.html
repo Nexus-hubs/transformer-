@@ -247,6 +247,67 @@
             border-radius: 3px;
             color: #f5f3f0;
         }
+
+        /* Navigation sections */
+        .nav-sections {
+            display: flex;
+            gap: 16px;
+            margin: 32px 0 48px 0;
+            padding: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-section {
+            background-color: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 6px;
+            padding: 12px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .nav-section:hover {
+            background-color: #2a2a2a;
+            border-color: #4a4842;
+            transform: translateY(-2px);
+        }
+
+        .nav-section-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #f5f3f0;
+            margin-bottom: 4px;
+        }
+
+        .nav-section-desc {
+            font-size: 0.8rem;
+            color: #78756f;
+        }
+
+        @media (max-width: 768px) {
+            .nav-sections {
+                gap: 12px;
+            }
+
+            .nav-section {
+                flex: 1 1 calc(50% - 6px);
+                min-width: 140px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-sections {
+                flex-direction: column;
+            }
+
+            .nav-section {
+                flex: 1 1 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -261,6 +322,29 @@
             </div>
             <hr class="divider">
         </header>
+
+        <nav class="nav-sections">
+            <div class="nav-section">
+                <div class="nav-section-title">Model Updates</div>
+                <div class="nav-section-desc">Latest releases</div>
+            </div>
+            <div class="nav-section">
+                <div class="nav-section-title">AI News</div>
+                <div class="nav-section-desc">Industry trends</div>
+            </div>
+            <div class="nav-section">
+                <div class="nav-section-title">Code</div>
+                <div class="nav-section-desc">Tutorials & snippets</div>
+            </div>
+            <div class="nav-section">
+                <div class="nav-section-title">Research</div>
+                <div class="nav-section-desc">Papers & findings</div>
+            </div>
+            <div class="nav-section">
+                <div class="nav-section-title">Tutorials</div>
+                <div class="nav-section-desc">Step-by-step guides</div>
+            </div>
+        </nav>
 
         <article class="blog-content">
             <section class="intro">
