@@ -258,6 +258,32 @@
             margin: 1.5rem 0;
         }
 
+        /* Back to top button */
+        .back-to-top {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 32px auto;
+            background-color: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 6px;
+            color: #f5f3f0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .back-to-top:hover {
+            background-color: #2a2a2a;
+            border-color: #4a4842;
+            transform: translateY(-2px);
+        }
+
+        .back-to-top-container {
+            text-align: center;
+            margin-top: 48px;
+        }
+
         /* Navigation sections */
         .nav-sections {
             display: flex;
@@ -360,7 +386,7 @@
 
                 <h3>⟡ unified analysis: antigravity • gemini 3 • codex max • the agent-execution layer</h3>
 
-                <p>the image you provided captures a snapshot of the new ai stack emerging right now — a stack built around three pillars: antigravity as the agentic environment, gemini 3 as the frontier multimodal model, and the terminal / tool layer as the execution engine that lets agents act. together with openai's gpt-5.1 codex max, these systems mark the transition from "ai that answers" to ai that builds, verifies, and operates.</p>
+                <p>a stack built around three pillars: antigravity as the agentic environment, gemini 3 as the frontier multimodal model, and the terminal / tool layer as the execution engine that lets agents act. together with openai's gpt-5.1 codex max, these systems mark the transition from "ai that answers" to ai that builds, verifies, and operates.</p>
 
                 <h3>✦ antigravity: the agent-first development surface</h3>
                 <p>antigravity is google's agent-development platform that blends a code editor, multi-agent manager, and browser-control layer. unlike conventional tools, antigravity treats the entire development environment as an agent playground. agents can read and write code, test changes, interact with websites, generate images, and verify outputs through screenshots and multimodal inspection.</p>
@@ -436,6 +462,10 @@
                 <p>new guides should reflect the updated capabilities: building an autonomous code-agent that uses GPT-5.1-Codex-Max to refactor a repo, validate changes, and deploy updates; or setting up a Gemini 3-powered retrieval system with a 1-million-token context window for multimodal document comprehension; or integrating Google Antigravity agents into your existing IDE with custom tools and verification workflows. each step should emphasise agent orchestration, long-horizon reasoning, tool-use, and developer empowerment.</p>
             </section>
         </article>
+
+        <div class="back-to-top-container">
+            <a href="#" class="back-to-top">↑ back to top</a>
+        </div>
 
         <footer class="blog-footer">
             <hr class="divider">
